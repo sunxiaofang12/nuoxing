@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>购物车</title>
+		<link rel="stylesheet" type="text/css" href="/css/cart.css" />
+		<script type="text/javascript" src="/libs/require/require.js" data-main = "/js/cart.js"></script>
+	</head>
+	<body>
+		<!--header-->
+		<header></header>
+		<!--cart-menu-->
+		<div class="cart-menu">
+			<div class="cart-menu-wrap">
+				<!--商品展示-->
+				<div class="menu-top">
+					<p>您还没有登录，登录后购物车的商品将保存到您的账号中！ </p>
+				</div>
+				
+					<div class="menu_list">
+								<div class="sp" id="details"></div>
+									<script type="text/html" id="detail-template">
+										
+									<dl>
+										<dt>
+											<!--<img src="/img/${val.img}">	-->
+											<img src="{{products.img}}">
+										</dt>
+										<dd class="name">{{products.name}}</dd>
+									</dl>
+								
+								</script>
+								
+								<div class="dj" id="cart"></div>
+								
+							<script type="text/html" id="cart-template">
+								<p id="cartprice" class="price">￥{{products.price}}</p>
+								</div>
+								</script>
+								
+								<div class="sl" id="sl">
+									<p id="cartnum">
+										<span id="jianjian"><a href="javascript:;">-</a></span>
+										<span id = "pronum">1</span> 
+										<i id="jiajia"><a type="submit" href="javascript:;">+</a></i>
+									</p>
+								</div>
+								
+								<div class="yc" id="yc">
+									<p id="cartdel">
+									<a href="javascript:;">删除</a>
+									</p>
+								</div>
+							</div>
+				
+					<!--结算-->
+					<div class="cart-total">
+					<div class="cart-total-wrap">
+						<div class="carttotal">
+							<div class="total-wrap">
+							<div class="totalselect">
+								<dl>
+									<dt>订单合计</dt>
+								 <dd class="allnum">商品数量合计 <span>1</span> </dd>
+								 <dd class="allcost">商品金额合计 <span>￥278.00</span></dd>
+								 <dd class="totalcoset">总计：￥278</dd>
+								</dl>
+								<a href="/html/L.html">继续购物</a>
+								<a href="javascript:;">结算</a>
+							</div>	
+							</div>
+							
+						</div>
+					</div>
+				</div>
+				
+				
+				
+			</div>
+		</div>
+		<!--footer-->
+		<footer></footer>
+	</body>
+</html>

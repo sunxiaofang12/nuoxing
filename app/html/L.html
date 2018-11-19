@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>诺心蛋糕官网_数字蛋糕|芝士慕斯|草莓水果|巧克力生日蛋糕_LE CAKE诺心蛋糕网上订购</title>
+		<link rel="stylesheet" type="text/css" href="/css/L.css" />
+		<script type="text/javascript" src="/libs/require/require.js" data-main = "/js/L.js"></script>
+	</head>
+	<body>
+		<!--header-->
+		<header></header>
+		<!--wrap-->
+		<div class="filter_wrap">
+			<div class="wrap">
+				<div class="clear_fix">
+					<dl class="clear_fix-taste">
+						<dt>口味：</dt>
+						<dd class="all-acitve">全部</dd>
+						<dd>芝士口味</dd>
+						<dd>雪域口味</dd>
+						<dd>慕斯口味</dd>
+						<dd>巧克力味</dd>
+						<dd>鲜果口味</dd>
+						<dd>冰淇淋味</dd>
+						<dd>奶油口味</dd>
+					</dl>
+					<dl class="clear_fix-spec">
+						<dt>规格：</dt>
+						<dd class="all-acitve">全部</dd>
+						<dd>2-4人食</dd>
+						<dd>5-8人食</dd>
+						<dd>10-12人食</dd>
+						<dd>15-20人食</dd>
+					</dl>
+				</div>
+			</div>
+		</div>
+		<!--cake-->
+		<div class="cake">
+			<div class="cake-a">
+				<div class="cake-b" id="proList">
+					<!--template-->
+					<script type="text/html" id="pro-template">
+					{{each products}}	
+					
+					<dl>
+						<dt> 
+							
+							<!--<img src="/img/caketop-4.jpg"/ >-->
+							<a href="/html/details.html?id={{ $value.id}}"><img src="{{$value.img}}"/></a>
+						
+						</dt>
+						<dd><a href="http://localhost:2333/">环游世界·秋冬季蛋糕</a></dd>
+						<dd>
+							<span class="name">{{$value.name}}</span>
+							<span class="ml">+18元升级</span>
+						</dd>
+						<dd class="price">￥{{$value.price}}</dd>
+						<dd>
+							<span class="shopp">加入购物车></span>
+						</dd>
+					</dl>
+					<!--<a href="/html/details.html?id{{ $value.id}}"></a>-->
+					{{/each}}
+				</script>
+			
+					
+		</div>
+		</div>
+		</div>
+		<!--footer-->
+		<footer></footer>
+		
+	</body>
+</html>

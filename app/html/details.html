@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>商品详情页</title>
+		<link rel="stylesheet" type="text/css" href="/css/details.css" />
+		<script type="text/javascript" src="/libs/require/require.js" data-main = "/js/details.js"></script>
+	</head>
+	<body>
+		<!--header-->
+		<header></header>
+		<!--picture-->
+		<div class="picture">
+			<div class="picture-a">
+				
+			</div>
+		</div>
+		<!-- 商品选购信息 -->
+		<div class="goods">
+			<div class="goods-wrap">
+				<!-- 促销信息 -->
+				<div class="goods-left">
+					<div class="goods-left-top" id="details"></div>
+					<script type="text/html" id="detail-template">
+						
+					<p class="name">{{products.name}}<i>￥</i><span class="price">{{products.price}}</span></p>
+					
+					</script>
+					
+					
+					<div class="goods-left-bottom">
+					<p>［初秋情浓］2018.8.16-2018.9.29下单且不晚于9.30配送的蛋糕订单，每单可1元加价购熊抱巧克力吐司（半条装）1份，先到先得。</p>	
+					</div>
+				</div>
+				<!-- 加入购物车部分 -->
+				<div class="goods-right">
+					<div class="goods-right-wrap">
+						<!-- 用食信息 -->
+						<div class="goods-eats">
+							<p>建议食用人数</p>
+							<div class="eat-num">
+								<p>5-8人食</p>
+							</div>
+							<div class="eat-spec">
+								<p class="tableware">
+									<i></i>含10套餐具
+								</p>
+								<p class="size">
+									<i></i>约12x20cm
+								</p>
+								<p class="weight">
+									<i></i>约1060g
+								</p>
+								<p class="sweet">
+									甜度：<i></i>
+										
+								</p>
+							</div>
+						</div>
+						<!--添加购物车-->
+						<div class="goods-buy">
+							<button id="btn">
+								<a href="http://localhost:2333/html/cart.html">加入购物车+</a>
+							</button>
+							<button id="btn2">
+								<!--连接到购物车cart-->
+								<a href="http://localhost:2333/html/cart.html">立即购买</a>   
+								<!--window.location.href="/html/cart.html";-->
+
+							</button>
+						</div>
+					</div>
+				</div>
+			</div>
+			
+		</div>
+		
+			
+		<!--wenxingtishi-->
+		
+		<div class="goods-pic">
+			<div class="goods-top">
+				<img src="../img/for-her_1.jpg" />
+			</div>
+			<div class="goods-bottom">
+				<img src="../img/搞定pc.jpg" />
+			</div>
+			</div>
+			
+		<div class="img">
+			<img src="../img/for-her_3.jpg"/>
+		</div>
+		
+		<div class="comments">
+			<div class="comments-wrap">
+				<div class="top-hide">
+					<h2>用户评论</h2>
+					<h4></h4>	
+				</div>
+				<div class="bottom-hide">
+					<div class="c-left"></div>
+					<div class="c-right">
+						<p>136***1929</p> <p>规格：5-8人食</p> <p>2018-08-17 23:41:58</p>
+					</div>
+					<p id="c-comment">
+						<a href="#">老婆说特别好看，非常好吃。好评！！！棒！！配送的师傅也特别有也任心。再给个好评！</a>
+					</p>
+				</div>
+			</div>
+		</div>
+		
+		<!--share-->
+		<div class="share">
+			<div class="share-wrap">
+				<div class="s-product">
+				<h3>热门推荐</h3>
+				
+				<div class="share-b">
+					<dl>
+						<dt>
+							<img src="../img/caketop-1.jpg" />
+						</dt>
+						<dd><a href="javascript">雪域牛乳芝士蛋糕</a></dd>
+						<dd>
+							<span>人气爆款</span>
+						</dd>
+						<dd>￥198</dd>
+						<dd>
+							<span>加入购物车></span>
+						</dd>
+					</dl>
+					<dl>
+						<dt>
+							<img src="../img/caketop-2.jpg"/>
+						</dt>
+						<dd><a href="javascript:">数字蛋糕</a></dd>
+						<dd>
+							<span>NEW</span>
+						</dd>
+						<dd>￥198</dd>
+						<dd>
+							<span>加入购物车></span>
+						</dd>
+					</dl>
+					<dl>
+						<dt>
+							<img src="../img/caketop-3.jpg"/>
+						</dt>
+						<dd><a href="javascript:">美刀刀蛋糕</a></dd>
+						<dd>
+							<span>人气爆款</span>
+						</dd>
+						<dd>￥298</dd>
+						<dd>
+							<span>加入购物车></span>
+						</dd>
+					</dl>
+					<dl>
+						<dt>
+							<img src="../img/caketop-4.jpg"/>
+						</dt>
+						<dd><a href="javascript:">环游世界·秋冬季蛋糕</a></dd>
+						<dd>
+							<span>人气爆款</span>
+							<span>+18元升级</span>
+						</dd>
+						<dd>￥218</dd>
+						<dd>
+							<span>加入购物车></span>
+						</dd>
+					</dl>
+					
+				</div>
+				</div>
+			</div>
+		</div>
+		window.location.href="/html/cart.html";
+
+		<!--footer-->
+		<footer></footer>
+	</body>
+</html>

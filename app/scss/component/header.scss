@@ -1,0 +1,160 @@
+
+/*Header*/
+header{
+    width: 100%;
+    height: 155px;
+    margin: 0 auto;
+}
+header .header-top{
+    width: 1263px;
+    height: 30px;
+    float:left;
+    background: #f9f9f9;
+}
+header .header-top .header-t-right{
+    height: 30px;
+    float: right;
+    margin-right: 37px;
+    font-size: 12px;
+    line-height: 30px;
+    
+}
+header .header-top .header-t-right img{
+    margin-left: 38px;
+    
+}
+header .header-top .header-t-right a{
+    color: #3e3e3e;
+}
+header .header-top .header-t-right a:hover{
+    color: #FEBABE;
+}
+header .header-top .header-t-right span{
+    position: relative;
+}
+header .header-top .header-t-right span:nth-child(4):hover .weixin{
+    display: block;
+}
+header .header-top .header-t-right .weixin{
+    width: 195px;
+    height: 239px;
+    position: absolute;
+    left: -42px;
+    top: 16px;
+    background:url(/img/weixin-top.png) no-repeat center ;
+    display: none;
+}
+
+header .header-content{
+    width:100%;
+    height: 125px;
+    float: left;
+
+}
+header .header-content .header-cont-top{
+    width: 1263px;
+    height: 60px;
+    float: left;
+}
+header .header-content .header-cont-top .header-cont-t-left{
+    width: 170px;
+    height: 22px;
+    line-height: 22px;
+    float: left;
+    margin-left: 140px;
+    font-size: 12px;
+    margin-top: 25px;
+}
+header .header-content .header-cont-top .header-cont-t-left span{
+    color: #3e3e3e;
+}
+header .header-content .header-cont-top .header-cont-t-left a{
+    color: #949494;
+}
+header .header-content .header-cont-top .header-cont-t-center{
+    width: 207px;
+    height: 24px;
+    float: left;
+    margin-left: 230px;
+    margin-top:25px;
+}
+header .header-content .header-cont-top .header-cont-t-center a{
+    width: 207px;
+    height: 24px;
+    float: left;
+    display: inline-block;
+    background: url(/img/logo_new.png) no-repeat center;
+    cursor: pointer;
+}
+header .header-content .header-cont-top .header-cont-t-right{
+    width: 280px;
+    height: 24px;
+    float: left;
+    margin-left: 150px;
+    margin-top: 25px;
+}
+header .header-content .header-cont-top .header-cont-t-right input{
+    width: 200px;
+    height: 20px;
+    display: inline-block;
+    float: left;
+    border: none;
+    border-bottom: 1px solid #3e3e3e;
+}
+header .header-content .header-cont-top .header-cont-t-right span{
+    float: left;
+    margin-left: 15px;
+}
+header .header-content .header-cont-top .header-cont-t-right span img{
+    width: 21px;
+    height: 21px;
+    display: inline-block;
+    float: left;
+}
+header .header-content .header-cont-bottom{
+    width: 1263px;
+    height: 65px;
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+header .header-content .header-cont-bottom ul{
+    width: 736px;
+    height: 65px;
+}
+header .header-content .header-cont-bottom ul li{
+    height: 65px;
+    font-size: 16px;
+    line-height: 65px;
+    text-align: center;
+    float: left;
+    margin: 0 40px;
+}
+header .header-content .header-cont-bottom ul li a{
+    color: #3e3e3e;
+}
+header .header-content .header-cont-bottom ul li a:hover{
+    color: #febabe;
+}
+header .header-content .header-cont-bottom ul li:first-child a{
+  color: #febabe;
+}
+header .header-content .header-cont-bottom ul li:first-child{
+
+    width: 112px;
+    margin: 0px;
+}
+header .header-content .header-cont-bottom ul li:nth-child(2){
+
+    width: 112px;
+    margin: 0px;
+}
+
+header .header-content .header-cont-bottom ul li:nth-child(3){
+
+    width: 112px;
+    margin: 0px;
+}
+
+
